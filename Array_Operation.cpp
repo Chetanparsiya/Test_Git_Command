@@ -1,8 +1,9 @@
 #include<iostream>
 using namespace std;
 int i=-1;//Global Variables
+
 void Insert_At_Last(int a[],int data)//Inserting at Last
-{
+{	cout<<"Inserted at the last Index";
 	a[++i]=data;
 }
 void Insert_At_Position(int a[],int data,int pos)//Inserting at  Position
